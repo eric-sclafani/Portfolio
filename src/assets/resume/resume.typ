@@ -28,32 +28,20 @@
 )
 
 #resume-item[
-
-
-// need point on resolving user submitted tickets in timely manner...
-// 
-
-
-  // designed SQL server tables...
-
-  // rxjs for performant interactivity
   
+  - Modernized and centralized data management systems to optimize essential city legal services across two full stack web applications, improving the ability for non-technical Legal staff to utilize data for decision-making, and eliminating duplicative steps in the data entry pipeline (CRUD). Transformed business requirements supplied by Legal staff into these applications.
 
-  // add info about how these apps handle important legal data for legal staff to do stuff with
+  - Streamlined internal IT operations by creating full stack web applications that interface directly with important SQL Server lookup tables, greatly simplifying the database maintenance process.
 
-  - Tailor-made and delivered 3+ full stack web applications for different bureaus/units to facilitate data operations (CRUD). These applications enable non-technical Legal staff to record and view sensitive data pertaining to defendant cases, diversion program updates, and other important information.
+  - Used Angular, Typescript, RxJS and HTML to develop intuitive front-end interfaces with custom components, reactive forms, form validation rules, and asynchronous observable-based event handling. Leveraged CSS, Bootstrap, and Angular Material to create modern-looking and responsive web designs.
 
-//? each sentence needs to be tied together here.
-  - Using Angular, TypeScript, HTML, and CSS, developed intuitive user interfaces for web application frontends. Utilized Angular Material and Bootstrap to create user-friendly responsive Angular components. Built reactive forms to correctly capture and display important information submitted by Legal staff. Created custom form validation rules to ensure data consistency.
+  - Designed backend ASP.NET Core RESTful API endpoints to handle HTTP requests that execute T-SQL stored procedures and upload files to network drives. Created SQL Server relational database tables and developed custom T-SQL stored procedures. Established special Windows folder permission rules to protect sensitive bureau data.
 
-  - Designed robust RESTful APIs using ASP.NET Core Web API to handle HTTP requests in application backends. Each Web API endpoint executes T-SQL stored procedures containing custom query logic to suit the application needs. Data is normalized across many tables and databases in SQL Server.
-
-
-  - Embedded SSRS reports hosted on separate server into application frontends via HTML iframes. They accept user-provided criteria and generate organized tabular data reports for non-technical end users.
+  - Created SSRS reports hosted on a separate server that accept user-provided criteria and generated tabular data reports. Embedded reports into application frontends via HTML iframes.
+ 
+  - Wrote extensive detailed software documentation for multiple full stack web applications
 
   - Resolved user-submitted tickets in timely and efficient manner via ServiceDesk software.
-
-  - Worked with Legal staff to translate their business requirements into full-stack applications.
 
 
 
@@ -107,6 +95,7 @@
   (
     "ASP.NET Core",
     ".NET",
+    "C#",
     "MVC",
     "Python",
   )
